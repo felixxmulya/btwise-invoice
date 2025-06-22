@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import { auth } from '../lib/firebase/config';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileInvoiceDollar, faChartLine, faTasks, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 

@@ -1,8 +1,8 @@
 'use client';
 
-import { useAuth } from '../lib/auth/config';
+import { useAuth } from '../../lib/auth/config';
 import { signOut } from 'firebase/auth';
-import { auth } from '../lib/firebase/config';
+import { auth } from '../../lib/firebase/config';
 import { useRouter } from 'next/navigation';
 
 export default function DashboardPage() {
